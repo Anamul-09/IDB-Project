@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    background-color: rgb(54, 66, 235);
+}
+
+.banner{
+    padding: 30px;
+    background-color: rgb(205, 228, 76);
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+    background-color: #000;
+
+}
+
+.menu ul{
+    margin: 0 50px;
+}
+
+.menu ul li{
+    display: inline-block;
+    
+
+}
+.menu ul li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    transition: .3s;
+}
+
+.menu ul li a:hover{
+    background-color: #444;
+    color: #ddd;
+}
+
+input[type="search"] {
+        padding: 8px;
+        margin-top: 7px;
+        width: 250px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+}
+
+.left{
+
+    width: 74%;
+    float: left;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+
+}
+
+
+.right{
+
+    width: 24.5%;
+    float: left;
+    margin-right: 0.5%;
+    
+}
+.card{
+    padding: 20px;
+    margin-top: 5px;
+    background-color: rgb(218, 209, 209);
+    
+}
+.card-img{
+    width: 40%;
+    float: left;
+    height: auto;
+    margin-right: 10px;
+}
+.card-img img{
+    margin: 10px 0;
+    width: 100%;
+    height:auto;
+}
+
+.footer{
+    clear: both;
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(102, 100, 100);
+}
